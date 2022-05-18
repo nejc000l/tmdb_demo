@@ -1,0 +1,104 @@
+
+.name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 14px 16px;
+}
+ .filter-panel {
+    min-width: 260px;
+    width: 260px;
+    border: 1px solid #e3e3e3;
+    border-radius:8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+h2{
+   
+    font-size:1.2rem
+}
+.card{
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    border: 1px solid rgba(var(--lightGrey), 1);
+    background-color: #fff;
+    padding-bottom: 10px;
+
+}
+.icons  {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1em;
+    min-height: 1em;
+    width: 1em;
+    height: 1em;
+    line-height: inherit;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: inherit;
+    box-sizing: border-box;
+}
+.filter-container{
+    padding: 14px 16px;
+}
+.genres{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 14px 16px;
+    background-color:#01b4e4;
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #021e35;
+    cursor:pointer;
+}
+
+.filterButton{
+    display: inline-flex;
+    border: 1px solid #d8cdcd;
+    border-radius: 14px;
+    padding: 4px 12px;
+    font-size: 0.9em;
+    margin-right: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.filterButton.active{
+    background-color:#01b4e4;
+}
+.filterButton:hover{
+    background-color: #01b4e4;
+}

@@ -1,0 +1,43 @@
+.movie-card{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    box-shadow: 8px 6px 6px  #eeececc0;
+    overflow: hidden;
+    margin-top: -50px;
+    height:400px;
+    object-fit: cover;
+
+}
+
+.movie-info{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    padding: 26px 10px 12px 10px;
+    position: relative;
+    white-space: normal;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h5{
+    
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0px 0px 5px;
+
+
+}
+p{
+
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.6);
+}
